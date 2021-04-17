@@ -21,6 +21,7 @@ Flags:
 ```
 
 ## To-Do
+- do not create directories if present for e.g. src
 - make this work for multiple shell environments
 - create shell configuration file if not present
 - avoid having to run manual export or source ~/.zshrc command
