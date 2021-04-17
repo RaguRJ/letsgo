@@ -194,7 +194,7 @@ func updateZshrc(gopath string, path string)  {
 // COBRA CLI
 var rootCmd = &cobra.Command{
 	Use:   "letsgo",
-	Short: "CLI app prepare current working directory for go development",
+	Short: "CLI app that prepares the current working directory for go development",
 	Long: `This cli app does the following
 	1. Create the bin/, src/ and pkg/ directories if not present in current directory if flag is present
 	2. Update GOPATH and PATH
